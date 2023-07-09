@@ -1,0 +1,108 @@
+.signupRow {
+    width: 85%;
+}
+
+.registerInput {
+    height: 30px;
+    font-size: small !important;
+}
+
+.center-form {
+    border: 1px solid black;
+}
+
+.centralpart {
+    border-radius: 10px;
+    background: white !important;
+    box-shadow: 0 0 12px black;
+    margin-left: 12%;
+}
+
+.logoImage img {
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoImage {
+    background-color: #d9d9d9;
+}
+
+.loginLink {
+    text-decoration: none;
+}
+
+.loginLink:hover {
+    text-decoration: underline;
+}
+
+.input-group-append span {
+    margin-left: -40px;
+    background: transparent;
+    border: none;
+}
+
+.submitButton button {
+    width: 100%;
+    background-color: #FF7A00;
+    color: white;
+    font-weight: bold;
+}
+
+.submitButton button:hover {
+    background-color: hsl(29, 84%, 47%);
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Responsivenes*/
+@media screen and (max-width: 992px) {
+
+    .signupRow {
+        width: 120%;
+    }
+
+    .centralpart {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .signupRow {
+        width: 150%;
+        margin-left: -20% !important;
+    }
+
+    .centralpart {
+        margin-left: 0;
+    }
+
+    .logoImage img {
+        height: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .signupRow {
+        width: 150%;
+        margin-left: -20% !important;
+    }
+
+    .centralpart {
+        margin-left: 0;
+    }
+
+    .logoImage img {
+        height: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
